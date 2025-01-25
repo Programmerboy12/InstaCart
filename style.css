@@ -32,7 +32,16 @@ body {
 }
 .main {
     padding: 20px;
-    background-color: red;
+    background-color: rgb(236, 199, 199);
+}
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 /* Responsive */
 
