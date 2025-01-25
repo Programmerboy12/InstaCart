@@ -30,6 +30,12 @@ body {
 .navbar .menu a {
     margin-left: 10px;
 }
+.main {
+    padding: 20px;
+    background-color: red;
+}
+/* Responsive */
+
 @media (max-width: 768px) {
     .navbar .menu {
         flex-direction: column;
