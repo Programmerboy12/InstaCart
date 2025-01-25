@@ -10,15 +10,12 @@ body {
     font-family: Arial, sans-serif;
   }
 
-  /* Navbar */
-  .yellow{
-    font-weight: bolder;
-    color: rgba(245, 195, 30, 0.896);
-    
-  }
-  .green{
-    font-weight: bolder;
-    color: green;
+  /* Navigation section*/
+  header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
   }
   .navbar {
     position: sticky;
@@ -27,37 +24,63 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    top: 0;
+    z-index: 1000;
   }
-
-  .navbar ul {
+  .yellow{
+    font-weight: bolder;
+    color: rgba(245, 195, 30, 0.896);
+    font-size: 1.8em;
     
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
   }
-
-  .navbar ul li {
-    margin: 0 15px;
+  .green{
+    font-weight: bolder;
+    color: green;
+    font-size: 1.8em;
   }
-
-  .navbar ul li a {
-    color: black;
-    text-decoration: none;
-  }
-
-  .navbar ul li a:hover {
-    text-decoration: underline;
-  }
-  .search-container{
-    display: flex;
+  .getview{
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    flex: 1 1 0%;
-    position: relative;
-    background-color: inherit;
+    height: 86px;
+    width: 23%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .text{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+  .text-elinment{
+    display: flex;
+    flex-direction: row;
+  }
+  .small-text{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    max-width: 210px;
+    text-overflow: ellipsis;
+  }
+  .search-container{
+    display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        flex: 1 1 0%;
+        position: relative;
+        background-color: inherit;
   }
   .btn{
     width: 55%;
