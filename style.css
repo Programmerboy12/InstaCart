@@ -4,8 +4,15 @@ body {
   }
 
   /* Navbar */
+  .yellow{
+    color: yellow;
+    
+  }
+  .green{
+    color: green;
+  }
   .navbar {
-    background-color: #68af78;
+    background-color: rgb(106, 147, 106);
     color: white;
     display: flex;
     justify-content: space-between;
