@@ -117,10 +117,10 @@ img {
 /* hero section */
 .sections {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 3px 28px;
-  margin-top: 5p;
+  margin-top: 20px 0px;
   max-width: 1200px;
 }
 
@@ -135,7 +135,7 @@ img {
 
 /* footer */
 footer {
-  background-color: #28a745;
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 2px 0px;
@@ -160,16 +160,12 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .navbar .menu {
+  .sections {
     flex-direction: column;
-    display: none;
+    align-items: center;
   }
-  .navbar .menu.active {
-    display: flex;
-  }
-  .navbar .toggle {
-    display: block;
-    cursor: pointer;
+  .section {
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 768px) {
