@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
+HEAD
   /* Navigation section*/
   header{
     position: sticky;
@@ -109,7 +109,7 @@ body {
     font-family: Okra-Regular;
     transition: font-size 0.5s;
   }
-=======
+
 /* Navigation section*/
 header {
   position: sticky;
@@ -117,7 +117,7 @@ header {
   width: 100%;
   z-index: 1000;
 }
->>>>>>> c60005db876dc6c961bd0c2e8e4ef3758f025a6b
+
 
 .navbar {
   position: sticky;
@@ -232,6 +232,10 @@ img {
 .section {
   flex: 1 1 0%;
   max-width: 1280px;
+}
+.category{
+  display: flex;
+
 }
 
 /* footer */
