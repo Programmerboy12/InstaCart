@@ -13,126 +13,39 @@ body {
 
 /* Navigation section*/
 
-header {
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbar a img{
-  height: 40px;
-  width: 100px;
-  position: absolute;
-  left: 30px;
-  top: 28px;
-}
-
-.navbar .text,.small-text{
-  position: relative;
-  left: 80px;
-}
-
 .navbar {
-  position: sticky;
-  background-color: rgb(252, 252, 252);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  top: 0;
-  z-index: 1000;
+  /* height: 200px; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3)
 }
 
-.addtocart {
-  background-color: green;
-  padding: 20px 30px;
-  border-radius: 15px;
-  font-weight: bold;
+#logo{
+  margin-left: 30px;
 }
 
-.yellow {
-  font-weight: bolder;
-  color: rgba(245, 195, 30, 0.896);
-  font-size: 1.8em;
-
+#d-time{
+  margin-left: 80px ;
 }
 
-.green {
-  font-weight: bolder;
-  color: green;
-  font-size: 1.8em;
+#search{   
+  width: 40%;
+  margin-left: 100px;
 }
 
-.getview {
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  height: 86px;
-  width: 23%;
-  display: flex;
-  font-size: 16px;
-  flex-direction: column;
-  cursor: pointer;
+#search i{
+  margin-right: 10px;
 }
 
-.text {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  margin-bottom: 6px;
-  font-size: 18px;
+#login{
+  margin-left: 80px;  
 }
 
-.text-elinment {
-  display: flex;
-  flex-direction: row;
+.btn{
+  font-size: 20px;
+  /* text-align: center; */
 }
 
-.small-text {
-  font-size: 13px;
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  clear: both;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  width: auto;
-  max-width: 210px;
-  text-overflow: ellipsis;
-}
-
-.search-container {
-  width: 60%;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  /* flex: 1 1 0%; */
-  position: relative;
-  background-color: inherit;
-}
-
-.btn {
-  width: 55%;
-  padding: 0px 12px;
-  height: 46px;
-  display: flex;
-  gap: 8px;
-  border: 1px solid rgb(232, 232, 232);
-  border-radius: 12px;
-  background: rgb(248, 248, 248);
-  color: rgb(130, 130, 130);
-  box-shadow: none;
-}
-
-.span {
-  font-size: 18px;
-  font-weight: 400;
-  color: rgb(54, 54, 54);
-  font-family: Okra-Regular;
-  transition: font-size 0.5s;
+#cart{
+  margin-left: 80px;
 }
 
 /* hero section */
