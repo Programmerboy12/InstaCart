@@ -230,6 +230,8 @@ footer{
 }
 
 .links a{
+  color: inherit;
+  cursor: pointer;
   text-decoration: none;
   line-height: 50px;
   font-size: 20px;
@@ -239,6 +241,9 @@ footer{
   text-decoration: none;
   line-height: 50px;
   font-size: 20px;
+  color: inherit;
+  cursor: pointer;
+  
 }
 
 .Contacts p,a{
