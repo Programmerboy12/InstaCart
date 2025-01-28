@@ -1,0 +1,66 @@
+* {
+    background-image: url(13182208_5166950.jpg);
+}
+
+.about-team {
+    height: 100vh;
+    width: 100%;
+
+    margin: auto;
+    border: 2px solid black;
+
+}
+
+.about-team h1 {
+    text-align: center;
+
+}
+
+.about-team .member {
+    height: 200px;
+    width: 70%;
+    color: white;
+    background:#333;
+    border-radius: 10px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.member h2{
+    
+    font-size: 3rem;
+    background: #333;
+
+}
+.button{
+    margin-top: 1rem;
+}
+.button button{
+    background-color:#333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.button button:hover{
+    background-color:blue;
+}
+.about-team .member .circle{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.circle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
