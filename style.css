@@ -47,28 +47,15 @@ body {
 }
 
 /* hero section */
-.hero-container {
+
+.banner{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.hero-img {
-  flex: 1 1 0%;
-  max-width: 1280px;
-}
-
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.img img {
-  height: 234.862px;
+.banner img{
   width: 1280px;
-  cursor: pointer;
-  border-radius: 0px;
+  height: 235px;
 }
 
 /* product main sections */
@@ -76,8 +63,8 @@ body {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .section-main img{
