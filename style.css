@@ -72,44 +72,18 @@ body {
 }
 
 /* product main sections */
-.sections-main {
-  max-width: 3000px;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+.section-main{
+  position: relative;
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.section {
-  flex: 1 1 0%;
-  max-width: 1280px;
-}
-
-.selectcupon-list {
-  display: flex;
-  flex-direction: column;
-  background: url(https://cdn.grofers.com/layout-engine/2021-10/white-bg-1.png);
-
-}
-
-.select-flex {
-  max-width: 100%;
-  overflow: auto hidden;
-  scrollbar-width: none;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  column-gap: 20px;
-  margin: 16px;
-}
-
-.select-item-img {
+.section-main img{
+  width: 335px;
   height: 195px;
-  width: 335.4px;
-  cursor: pointer;
 }
-
 
 /* Image Cart Section product catagory  */
 .widgets-container {
