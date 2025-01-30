@@ -1,0 +1,4 @@
+install and run , "npm run"
+npm install tailwindcss @tailwindcss/vite
+# npm install @headlessui/react
+
